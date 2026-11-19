@@ -1,0 +1,74 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+coverage.xml
+
+# Local databases and session data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Generated creative-agency assets
+creative_agency_posters/
+generated_images/
+generated_assets/
+
+# Package managers and tools
+.uv/
+.ruff_cache/
+.mypy_cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak

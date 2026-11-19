@@ -1,0 +1,8 @@
+gradio>=6.30.0
+ipykernel
+openai>=3.35.1
+pydantic>=2.14.1
+python-dotenv>=1.2.4
+requests>=2.34.2
+openai-agents[viz]>=0.24.0
+duckduckgo-search
